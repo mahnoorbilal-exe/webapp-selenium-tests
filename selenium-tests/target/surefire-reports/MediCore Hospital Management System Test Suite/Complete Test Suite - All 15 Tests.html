@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Complete Test Suite - All 15 Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Complete Test Suite - All 15 Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 10:26:31 PKT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63289 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test03_SuccessfulLogin()'><b>test03_SuccessfulLogin</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC03: Verify user can login with valid credentials</td>
+<td></td>
+<td>1</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test08_PatientSearch()'><b>test08_PatientSearch</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC08: Verify patient search functionality</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test01_HomePageLoads()'><b>test01_HomePageLoads</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC01: Verify home page loads with correct title</td>
+<td></td>
+<td>0</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test07_PatientsTableLoads()'><b>test07_PatientsTableLoads</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC07: Verify patients table displays with proper structure</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test13_NavigateToBilling()'><b>test13_NavigateToBilling</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC13: Verify navigation to billing page</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test12_NavigateToWards()'><b>test12_NavigateToWards</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC12: Verify navigation to wards page and grid display</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test11_NavigateToAppointments()'><b>test11_NavigateToAppointments</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC11: Verify navigation to appointments page</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test02_LoginPageElements()'><b>test02_LoginPageElements</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC02: Verify all login page elements are present</td>
+<td></td>
+<td>1</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test09_AddPatientModal()'><b>test09_AddPatientModal</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC09: Verify add patient button opens modal dialog</td>
+<td></td>
+<td>4</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test15_RegisterPageElements()'><b>test15_RegisterPageElements</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC15: Verify registration page displays all form fields</td>
+<td></td>
+<td>1</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test04_InvalidLogin()'><b>test04_InvalidLogin</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC04: Verify error message appears with invalid credentials</td>
+<td></td>
+<td>2</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test06_NavigateToPatients()'><b>test06_NavigateToPatients</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC06: Verify navigation to patients page works</td>
+<td></td>
+<td>2</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test14_Logout()'><b>test14_Logout</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC14: Verify logout returns user to login page</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test05_DashboardLoads()'><b>test05_DashboardLoads</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC05: Verify dashboard displays statistics cards</td>
+<td></td>
+<td>1</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+<tr>
+<td title='com.testing.HospitalManagementTest.test10_NavigateToDoctors()'><b>test10_NavigateToDoctors</b><br>Test class: com.testing.HospitalManagementTest<br>Test method: TC10: Verify navigation to doctors page</td>
+<td></td>
+<td>3</td>
+<td>com.testing.HospitalManagementTest@2c767a52</td></tr>
+</table><p>
+</body>
+</html>

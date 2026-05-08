@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-08T10:26:31 PKT" name="MediCore Hospital Management System Test Suite" finished-at="2026-05-08T10:27:34 PKT" duration-ms="63289">
+    <groups>
+      <group name="navigation">
+        <method signature="HospitalManagementTest.test06_NavigateToPatients()[pri:6, instance:com.testing.HospitalManagementTest@2c767a52]" name="test06_NavigateToPatients" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test10_NavigateToDoctors()[pri:10, instance:com.testing.HospitalManagementTest@2c767a52]" name="test10_NavigateToDoctors" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test11_NavigateToAppointments()[pri:11, instance:com.testing.HospitalManagementTest@2c767a52]" name="test11_NavigateToAppointments" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test12_NavigateToWards()[pri:12, instance:com.testing.HospitalManagementTest@2c767a52]" name="test12_NavigateToWards" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test13_NavigateToBilling()[pri:13, instance:com.testing.HospitalManagementTest@2c767a52]" name="test13_NavigateToBilling" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- navigation -->
+      <group name="negative">
+        <method signature="HospitalManagementTest.test04_InvalidLogin()[pri:4, instance:com.testing.HospitalManagementTest@2c767a52]" name="test04_InvalidLogin" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- negative -->
+      <group name="ui">
+        <method signature="HospitalManagementTest.test02_LoginPageElements()[pri:2, instance:com.testing.HospitalManagementTest@2c767a52]" name="test02_LoginPageElements" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test09_AddPatientModal()[pri:9, instance:com.testing.HospitalManagementTest@2c767a52]" name="test09_AddPatientModal" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test15_RegisterPageElements()[pri:15, instance:com.testing.HospitalManagementTest@2c767a52]" name="test15_RegisterPageElements" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- ui -->
+      <group name="regression">
+        <method signature="HospitalManagementTest.test01_HomePageLoads()[pri:1, instance:com.testing.HospitalManagementTest@2c767a52]" name="test01_HomePageLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test03_SuccessfulLogin()[pri:3, instance:com.testing.HospitalManagementTest@2c767a52]" name="test03_SuccessfulLogin" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test04_InvalidLogin()[pri:4, instance:com.testing.HospitalManagementTest@2c767a52]" name="test04_InvalidLogin" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test05_DashboardLoads()[pri:5, instance:com.testing.HospitalManagementTest@2c767a52]" name="test05_DashboardLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test06_NavigateToPatients()[pri:6, instance:com.testing.HospitalManagementTest@2c767a52]" name="test06_NavigateToPatients" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test07_PatientsTableLoads()[pri:7, instance:com.testing.HospitalManagementTest@2c767a52]" name="test07_PatientsTableLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test08_PatientSearch()[pri:8, instance:com.testing.HospitalManagementTest@2c767a52]" name="test08_PatientSearch" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test09_AddPatientModal()[pri:9, instance:com.testing.HospitalManagementTest@2c767a52]" name="test09_AddPatientModal" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test10_NavigateToDoctors()[pri:10, instance:com.testing.HospitalManagementTest@2c767a52]" name="test10_NavigateToDoctors" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test11_NavigateToAppointments()[pri:11, instance:com.testing.HospitalManagementTest@2c767a52]" name="test11_NavigateToAppointments" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test12_NavigateToWards()[pri:12, instance:com.testing.HospitalManagementTest@2c767a52]" name="test12_NavigateToWards" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test13_NavigateToBilling()[pri:13, instance:com.testing.HospitalManagementTest@2c767a52]" name="test13_NavigateToBilling" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test14_Logout()[pri:14, instance:com.testing.HospitalManagementTest@2c767a52]" name="test14_Logout" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test15_RegisterPageElements()[pri:15, instance:com.testing.HospitalManagementTest@2c767a52]" name="test15_RegisterPageElements" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- regression -->
+      <group name="patients">
+        <method signature="HospitalManagementTest.test07_PatientsTableLoads()[pri:7, instance:com.testing.HospitalManagementTest@2c767a52]" name="test07_PatientsTableLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test08_PatientSearch()[pri:8, instance:com.testing.HospitalManagementTest@2c767a52]" name="test08_PatientSearch" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test09_AddPatientModal()[pri:9, instance:com.testing.HospitalManagementTest@2c767a52]" name="test09_AddPatientModal" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- patients -->
+      <group name="smoke">
+        <method signature="HospitalManagementTest.test01_HomePageLoads()[pri:1, instance:com.testing.HospitalManagementTest@2c767a52]" name="test01_HomePageLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test02_LoginPageElements()[pri:2, instance:com.testing.HospitalManagementTest@2c767a52]" name="test02_LoginPageElements" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test03_SuccessfulLogin()[pri:3, instance:com.testing.HospitalManagementTest@2c767a52]" name="test03_SuccessfulLogin" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test05_DashboardLoads()[pri:5, instance:com.testing.HospitalManagementTest@2c767a52]" name="test05_DashboardLoads" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test14_Logout()[pri:14, instance:com.testing.HospitalManagementTest@2c767a52]" name="test14_Logout" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- smoke -->
+      <group name="wards">
+        <method signature="HospitalManagementTest.test12_NavigateToWards()[pri:12, instance:com.testing.HospitalManagementTest@2c767a52]" name="test12_NavigateToWards" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- wards -->
+      <group name="dashboard">
+        <method signature="HospitalManagementTest.test05_DashboardLoads()[pri:5, instance:com.testing.HospitalManagementTest@2c767a52]" name="test05_DashboardLoads" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- dashboard -->
+      <group name="authentication">
+        <method signature="HospitalManagementTest.test03_SuccessfulLogin()[pri:3, instance:com.testing.HospitalManagementTest@2c767a52]" name="test03_SuccessfulLogin" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test04_InvalidLogin()[pri:4, instance:com.testing.HospitalManagementTest@2c767a52]" name="test04_InvalidLogin" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test14_Logout()[pri:14, instance:com.testing.HospitalManagementTest@2c767a52]" name="test14_Logout" class="com.testing.HospitalManagementTest"/>
+        <method signature="HospitalManagementTest.test15_RegisterPageElements()[pri:15, instance:com.testing.HospitalManagementTest@2c767a52]" name="test15_RegisterPageElements" class="com.testing.HospitalManagementTest"/>
+      </group> <!-- authentication -->
+    </groups>
+    <test started-at="2026-05-08T10:26:31 PKT" name="Complete Test Suite - All 15 Tests" finished-at="2026-05-08T10:27:34 PKT" duration-ms="63289">
+      <class name="com.testing.HospitalManagementTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:31 PKT" name="setUp" finished-at="2026-05-08T10:26:34 PKT" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test01_HomePageLoads()[pri:1, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:34 PKT" name="test01_HomePageLoads" description="TC01: Verify home page loads with correct title" finished-at="2026-05-08T10:26:35 PKT" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_HomePageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:35 PKT" name="tearDown" finished-at="2026-05-08T10:26:35 PKT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:35 PKT" name="setUp" finished-at="2026-05-08T10:26:36 PKT" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test02_LoginPageElements()[pri:2, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:36 PKT" name="test02_LoginPageElements" description="TC02: Verify all login page elements are present" finished-at="2026-05-08T10:26:38 PKT" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_LoginPageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:38 PKT" name="tearDown" finished-at="2026-05-08T10:26:38 PKT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:38 PKT" name="setUp" finished-at="2026-05-08T10:26:40 PKT" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test03_SuccessfulLogin()[pri:3, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:40 PKT" name="test03_SuccessfulLogin" description="TC03: Verify user can login with valid credentials" finished-at="2026-05-08T10:26:42 PKT" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_SuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:42 PKT" name="tearDown" finished-at="2026-05-08T10:26:42 PKT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:42 PKT" name="setUp" finished-at="2026-05-08T10:26:43 PKT" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test04_InvalidLogin()[pri:4, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:43 PKT" name="test04_InvalidLogin" description="TC04: Verify error message appears with invalid credentials" finished-at="2026-05-08T10:26:46 PKT" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:46 PKT" name="tearDown" finished-at="2026-05-08T10:26:46 PKT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:46 PKT" name="setUp" finished-at="2026-05-08T10:26:47 PKT" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test05_DashboardLoads()[pri:5, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:47 PKT" name="test05_DashboardLoads" description="TC05: Verify dashboard displays statistics cards" finished-at="2026-05-08T10:26:49 PKT" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_DashboardLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:49 PKT" name="tearDown" finished-at="2026-05-08T10:26:49 PKT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:49 PKT" name="setUp" finished-at="2026-05-08T10:26:51 PKT" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test06_NavigateToPatients()[pri:6, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:51 PKT" name="test06_NavigateToPatients" description="TC06: Verify navigation to patients page works" finished-at="2026-05-08T10:26:53 PKT" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_NavigateToPatients -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:53 PKT" name="tearDown" finished-at="2026-05-08T10:26:53 PKT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:53 PKT" name="setUp" finished-at="2026-05-08T10:26:54 PKT" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test07_PatientsTableLoads()[pri:7, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:54 PKT" name="test07_PatientsTableLoads" description="TC07: Verify patients table displays with proper structure" finished-at="2026-05-08T10:26:57 PKT" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07_PatientsTableLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:57 PKT" name="tearDown" finished-at="2026-05-08T10:26:58 PKT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:58 PKT" name="setUp" finished-at="2026-05-08T10:26:59 PKT" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test08_PatientSearch()[pri:8, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:26:59 PKT" name="test08_PatientSearch" description="TC08: Verify patient search functionality" finished-at="2026-05-08T10:27:03 PKT" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08_PatientSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:03 PKT" name="tearDown" finished-at="2026-05-08T10:27:03 PKT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:03 PKT" name="setUp" finished-at="2026-05-08T10:27:04 PKT" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test09_AddPatientModal()[pri:9, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:04 PKT" name="test09_AddPatientModal" description="TC09: Verify add patient button opens modal dialog" finished-at="2026-05-08T10:27:08 PKT" duration-ms="4015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09_AddPatientModal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:08 PKT" name="tearDown" finished-at="2026-05-08T10:27:08 PKT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:08 PKT" name="setUp" finished-at="2026-05-08T10:27:09 PKT" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test10_NavigateToDoctors()[pri:10, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:09 PKT" name="test10_NavigateToDoctors" description="TC10: Verify navigation to doctors page" finished-at="2026-05-08T10:27:13 PKT" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10_NavigateToDoctors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:13 PKT" name="tearDown" finished-at="2026-05-08T10:27:13 PKT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:13 PKT" name="setUp" finished-at="2026-05-08T10:27:14 PKT" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test11_NavigateToAppointments()[pri:11, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:14 PKT" name="test11_NavigateToAppointments" description="TC11: Verify navigation to appointments page" finished-at="2026-05-08T10:27:17 PKT" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_NavigateToAppointments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:17 PKT" name="tearDown" finished-at="2026-05-08T10:27:17 PKT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:17 PKT" name="setUp" finished-at="2026-05-08T10:27:18 PKT" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test12_NavigateToWards()[pri:12, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:18 PKT" name="test12_NavigateToWards" description="TC12: Verify navigation to wards page and grid display" finished-at="2026-05-08T10:27:22 PKT" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12_NavigateToWards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:22 PKT" name="tearDown" finished-at="2026-05-08T10:27:22 PKT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:22 PKT" name="setUp" finished-at="2026-05-08T10:27:23 PKT" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test13_NavigateToBilling()[pri:13, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:23 PKT" name="test13_NavigateToBilling" description="TC13: Verify navigation to billing page" finished-at="2026-05-08T10:27:26 PKT" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13_NavigateToBilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:26 PKT" name="tearDown" finished-at="2026-05-08T10:27:26 PKT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:26 PKT" name="setUp" finished-at="2026-05-08T10:27:28 PKT" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test14_Logout()[pri:14, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:28 PKT" name="test14_Logout" description="TC14: Verify logout returns user to login page" finished-at="2026-05-08T10:27:31 PKT" duration-ms="3051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:31 PKT" name="tearDown" finished-at="2026-05-08T10:27:31 PKT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:31 PKT" name="setUp" finished-at="2026-05-08T10:27:32 PKT" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test15_RegisterPageElements()[pri:15, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:32 PKT" name="test15_RegisterPageElements" description="TC15: Verify registration page displays all form fields" finished-at="2026-05-08T10:27:34 PKT" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15_RegisterPageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.HospitalManagementTest@2c767a52]" started-at="2026-05-08T10:27:34 PKT" name="tearDown" finished-at="2026-05-08T10:27:34 PKT" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.HospitalManagementTest -->
+    </test> <!-- Complete Test Suite - All 15 Tests -->
+  </suite> <!-- MediCore Hospital Management System Test Suite -->
+</testng-results>
