@@ -451,7 +451,7 @@ public class HospitalManagementTest extends BaseTest {
     public void test15_RegisterPageElements() {
         System.out.println("\n[TEST 15] Testing: Registration Page Elements");
         
-        // Step 1: Navigate to login page
+        // Step 1: Navigate to login page c
         driver.get(baseUrl);
         
         // Step 2: Click create account link
