@@ -1,0 +1,39 @@
+pipeline {
+
+    agent any
+
+    stages {
+
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/mahnoorbilal-exe/webapp-selenium-tests.git'
+            }
+        }
+
+        stage('Run Selenium Tests') {
+            steps {
+
+                script {
+
+                    docker.image('markhobson/maven-chrome').inside {
+
+                        sh 'mvn test'
+
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+
+        always {
+
+            emailext(
+                subject: "Selenium Test Results",
+                body: "Jenkins pipeline executed successfully.",
+                to: "rxbyrider@gmail.com"
+            )
+        }
+    }
+}
