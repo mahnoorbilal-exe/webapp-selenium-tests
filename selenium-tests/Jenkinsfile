@@ -11,6 +11,7 @@ pipeline {
         }
 
         stage('Run Selenium Tests') {
+
             steps {
 
                 script {
@@ -29,10 +30,20 @@ pipeline {
 
         always {
 
+            junit '**/target/surefire-reports/*.xml'
+
             emailext(
-                subject: "Selenium Test Results",
-                body: "Jenkins pipeline executed successfully.",
-                to: "rxbyrider@gmail.com"
+                subject: "Selenium Test Results - ${currentBuild.currentResult}",
+                body: """
+                Jenkins Pipeline Execution Completed
+
+                Job Name: ${JOB_NAME}
+                Build Number: ${BUILD_NUMBER}
+                Build Status: ${currentBuild.currentResult}
+
+                Check Jenkins dashboard for complete logs and reports.
+                """,
+                to: "mahnoor.bilal2240@gmail.com"
             )
         }
     }
